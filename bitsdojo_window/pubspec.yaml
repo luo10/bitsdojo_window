@@ -28,7 +28,10 @@ dependencies:
     ^0.1.2
     #path: ../bitsdojo_window_windows
   bitsdojo_window_macos:
-    path: ../bitsdojo_window_macos
+    git:
+      url: git@github.com:luo10/bitsdojo_window.git
+      path: bitsdojo_window_macos
+
   bitsdojo_window_linux:
     ^0.1.2
     #path: ../bitsdojo_window_linux
